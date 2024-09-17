@@ -11,8 +11,8 @@ exports.registerComplaint = async(req,res)=>{
     port: 587,
     secure: false, // true for port 465, false for other ports
     auth: {
-      user: "shameemanazar456@gmail.com",
-      pass: "wqizousddpmilbmg",
+      user: "henchman078@gmail.com",
+      pass: "lbslalmglquvcnob",
     },
     });
     const {userName, email, complaint} = req.body
