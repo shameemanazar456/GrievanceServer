@@ -37,7 +37,8 @@ exports.registerComplaint = async(req,res)=>{
                 await transporter.sendMail({
                   from: {
                     name:'Henchman Empire ',
-                    address:'shameemanazar456@gmail.com'},
+                    address:'henchman078@gmail.com'},
+                  //you can add your mailid here
                   to: 'henchman078@gmail.com',
                   subject: 'New Complaint Registration',
                   text:`User Name: ${userName} \n Email:${email} \n Complaint:${complaint}`,
